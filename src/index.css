@@ -18,6 +18,15 @@ Link {
   color: "#000000";
 }
 
+h1 {
+  font-size: 2.8vw!important;
+  font-weight: bold!important;
+}
+
+.color-title {
+  color: #1E1C1C;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -30,6 +39,8 @@ Link {
   position: absolute;
   background-color: #FF0000;
   color: white;
+  font-size: 25px;
+  font-weight: bold;
   border: 0px;
   border-radius: 50px;
   height: 80px;
@@ -60,5 +71,48 @@ Link {
   font-size:5vw;
   font-weight: bold;
   margin: 0;
+}
+
+.bg-lightGrey {
+  background-color: #f1f1f1;
+}
+
+.bg-white {
+  color: white;
+}
+
+.p-introduction {
+  font-size: 1.5vw;
+  font-style: italic;
+}
+
+.border-card {
+  border: 0px!important;
+  -webkit-box-shadow: -1px 10px 68px -35px rgba(0,0,0,0.41);
+  -moz-box-shadow: -1px 10px 68px -35px rgba(0,0,0,0.41);
+  box-shadow: -1px 10px 68px -35px rgba(0,0,0,0.41);
+}
+
+.border-card:hover{
+  -webkit-box-shadow: -1px 10px 68px -13px rgba(0,0,0,0.41);
+  -moz-box-shadow: -1px 10px 68px -13px rgba(0,0,0,0.41);
+  box-shadow: -1px 10px 68px -13px rgba(0,0,0,0.41);
+  transition: 1s;
+}
+
+.btn-buy-product {
+  background-color: #FF0000;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 50px;
+  height: 56px;
+  width: 232px;
+}
+
+.btn-buy-product:hover {
+  opacity: 0.6;
+  transition: 0.5s;
 }
 

@@ -5,9 +5,9 @@ import logo from '../../assets/img/Logo.png';
 
 export const NavBar = () => {
     return (
-        <Navbar expand="lg" sticky="top">
+        <Navbar expand="lg" sticky="top" className="bg-white">
           <Navbar.Brand to="/" className="cursor-pointer">   
-            <Link exact activeclassname="active" className="nav-link" to="/" >
+            <Link activeclassname="active" className="nav-link" to="/" >
               <img src={logo} width="" height="40" className="d-inline-block align-top" alt="Comercializadora Don Jaime"/>
             </Link>   
           </Navbar.Brand>
