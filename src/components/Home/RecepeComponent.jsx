@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 import { CardRecepeComponent } from '../../shared/components/CardRecepe/CardRecepeComponent';
 
-import PolloSudado from '../../assets/img/pollo-sudado.png';
-import PolloNaranja from '../../assets/img/pollo-naranja.png';
+import PolloSudado from '../../../assets/img/pollo-sudado.png';
+import PolloNaranja from '../../../assets/img/pollo-naranja.png';
 
 export const RecepeComponent = () => {
 

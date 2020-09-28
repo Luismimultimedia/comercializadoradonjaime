@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import photo1 from '../../assets/img/photo1.png';
-import photo2 from '../../assets/img/photo2.png';
+import photo1 from '../../../assets/img/photo1.png';
+import photo2 from '../../../assets/img/photo2.png';
 
 export const CarouselComponent = ({ onOrder }) => {
     const [carouselImg, setCarouselImg] = useState(
