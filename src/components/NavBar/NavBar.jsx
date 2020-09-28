@@ -14,10 +14,10 @@ export const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Link excat activeclassname="active" className="nav-link" to="/" >Inicio</Link>
-              <NavLink excat activeclassname="active" className="nav-link" href="/#productos">Nuestros Productos</NavLink>
-              <NavLink excat activeclassname="active" className="nav-link" href="/#recetas">Recetas</NavLink>
-              <NavLink excat activeclassname="active" className="nav-link" href="/#contactenos">Contactenos</NavLink>
+              <Link excat activeclassname="active" className="nav-link" to="/comercializadoradonjaime" >Inicio</Link>
+              <NavLink excat activeclassname="active" className="nav-link" href="/comercializadoradonjaime#productos">Nuestros Productos</NavLink>
+              <NavLink excat activeclassname="active" className="nav-link" href="/comercializadoradonjaime#recetas">Recetas</NavLink>
+              <NavLink excat activeclassname="active" className="nav-link" href="/comercializadoradonjaime#contactenos">Contactenos</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

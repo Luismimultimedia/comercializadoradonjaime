@@ -18,7 +18,7 @@ export const AppRouter = () => {
 
         <div>
           <Switch>
-            <Route exact={true} path="/" component={HomeScreen} />
+            <Route exact={true} path="/comercializadoradonjaime" component={HomeScreen} />
             {/* <Route exact={true} path="/#contactenos" component={RecepeScreen} /> */}
             <Route render={function () {
               return <p>Not found</p>
