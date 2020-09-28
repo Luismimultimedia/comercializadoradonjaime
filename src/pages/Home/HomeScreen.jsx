@@ -10,7 +10,7 @@ export const HomeScreen = () => {
 
     const [whatsappContact, setWhatsappContact] = useState({
         cellphone: '573054513737',
-        message: 'Este mensaje fue enviado desde la pagina de comercializadora don jaime'
+        message: 'Buen día me gustaria hacer el siguiente pedido:   , a la direción:   '
     })
 
     const openWhatsapp = () => {

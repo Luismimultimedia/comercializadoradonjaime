@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e53121f22c4ab1598fba8374d2d06779",
+    "revision": "418e589a17c04cbccc1997173b3bb7fe",
     "url": "/comercializadoradonjaime/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/comercializadoradonjaime/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "9392aec8b565db7169fc",
+    "revision": "5b3b41b8c802d17697c4",
     "url": "/comercializadoradonjaime/static/css/main.bd9acaff.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/comercializadoradonjaime/static/js/2.1ef19422.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9392aec8b565db7169fc",
-    "url": "/comercializadoradonjaime/static/js/main.86f09861.chunk.js"
+    "revision": "5b3b41b8c802d17697c4",
+    "url": "/comercializadoradonjaime/static/js/main.2cbe77e2.chunk.js"
   },
   {
     "revision": "897851299591fc49df0c",
