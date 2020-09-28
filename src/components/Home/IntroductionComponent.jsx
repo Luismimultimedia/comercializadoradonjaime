@@ -1,5 +1,5 @@
 import React from 'react';
-import imgIntroduction from '../../../assets/img/imgIntroduction.jpg';
+import imgIntroduction from '../../assets/img/imgIntroduction.jpg';
 
 export const IntroductionComponent = () => {
     return (

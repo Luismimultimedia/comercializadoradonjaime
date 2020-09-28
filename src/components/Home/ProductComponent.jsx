@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { CardProductComponent } from '../../shared/components/CardProduct/CardProductComponent';
 
-import Muslo from '../../../assets/img/muslo.png';
-import Pechuga from '../../../assets/img/pechuga.png';
-import Contramuslo from '../../../assets/img/contramuslo.png';
-import Ala from '../../../assets/img/ala.png';
-import Pollo from '../../../assets/img/pollo.png'
+import Muslo from '../../assets/img/muslo.png';
+import Pechuga from '../../assets/img/pechuga.png';
+import Contramuslo from '../../assets/img/contramuslo.png';
+import Ala from '../../assets/img/ala.png';
+import Pollo from '../../assets/img/pollo.png'
 
 export const ProductComponent = ({ onOrder }) => {
     const [products, setProducts] = useState(
