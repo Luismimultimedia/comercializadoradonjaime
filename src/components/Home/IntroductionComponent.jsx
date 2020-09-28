@@ -4,7 +4,7 @@ import imgIntroduction from '../../assets/img/imgIntroduction.jpg';
 export const IntroductionComponent = () => {
     return (
         <div className="col-12 d-flex flex-column justify-content-center bg-lightGrey">
-            <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1 mb-lg-5 mb-md-3 mb-sm-2 mb-1"> Comercializadora Don Jaime </h1>
+            <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Comercializadora Don Jaime </h1>
             <div className="row">
                 <div className="col-12 d-flex">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-2 p-1">

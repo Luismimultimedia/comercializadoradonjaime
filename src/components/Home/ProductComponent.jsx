@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { CardProductComponent } from '../../shared/components/CardProduct/CardProductComponent';
 
 import Muslo from '../../assets/img/muslo.png';
 import Pechuga from '../../assets/img/pechuga.png';
@@ -7,7 +7,7 @@ import Contramuslo from '../../assets/img/contramuslo.png';
 import Ala from '../../assets/img/ala.png';
 import Pollo from '../../assets/img/pollo.png'
 
-export const ProductComponent = ({onOrder}) => {
+export const ProductComponent = ({ onOrder }) => {
     const [products, setProducts] = useState(
         [
             {
@@ -56,25 +56,14 @@ export const ProductComponent = ({onOrder}) => {
     );
 
     return (
-        <div className="col-12 d-flex flex-column justify-content-center">
-            <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1 mb-lg-5 mb-md-3 mb-sm-2 mb-1"> Nuestros Productos </h1>
+        <div id="productos" className="col-12 d-flex flex-column justify-content-center">
+            <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Nuestros Productos </h1>
             <div className="row">
                 <div className="col-12 card-deck d-flex">
                     {
                         products.map(
-                            ({ id, title, description, urlPhoto }) => (
-                                <div key={id} className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-2 p-1">
-                                    <Card className="border-card">
-                                        <Card.Img variant="top" src={urlPhoto} className="p-5" />
-                                        <Card.Body>
-                                            <Card.Title className="text-center">{title}</Card.Title>
-                                            <Card.Text className="text-left">{description}</Card.Text>
-                                            <div className="d-flex justify-content-center">
-                                                <button className="btn-buy-product" onClick={onOrder}>Comprar</button>
-                                            </div>
-                                        </Card.Body>
-                                    </Card>
-                                </div>
+                            (product) => (
+                                <CardProductComponent key={product.id} product={product} onOrder={onOrder} />
                             )
                         )
                     }

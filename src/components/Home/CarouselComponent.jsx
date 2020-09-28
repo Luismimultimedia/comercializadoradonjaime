@@ -27,7 +27,7 @@ export const CarouselComponent = ({ onOrder }) => {
     };
     return (
         <div>
-            <Carousel className="carousel-class" onSelect={handleSelect}>
+            <Carousel id="inicio" className="carousel-class" onSelect={handleSelect}>
                 {
                     carouselImg.map(({ id, path, name }) => (
                         <Carousel.Item interval={8000} key={id}>

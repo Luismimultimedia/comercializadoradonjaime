@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, NavLink } from "react-bootstrap";
 import logo from '../../assets/img/Logo.png';
 
 export const NavBar = () => {
@@ -14,10 +14,10 @@ export const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Link exact activeclassname="active" className="nav-link" to="/" >Inicio</Link>
-              <Link exact activeclassname="active" className="nav-link" to="/Products" >Nuestros Productos</Link>
-              <Link exact activeclassname="active" className="nav-link" to="/Recepi" >Recetas</Link>
-              <Link exact activeclassname="active" className="nav-link" to="/Contact" >Contactenos</Link>
+              <Link excat activeclassname="active" className="nav-link" to="/" >Inicio</Link>
+              <NavLink excat activeclassname="active" className="nav-link" href="/#productos">Nuestros Productos</NavLink>
+              <NavLink excat activeclassname="active" className="nav-link" href="/#recetas">Recetas</NavLink>
+              <NavLink excat activeclassname="active" className="nav-link" href="/#contactenos">Contactenos</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

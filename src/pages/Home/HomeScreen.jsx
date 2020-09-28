@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { CarouselComponent } from '../../components/Home/CarouselComponent'
 import { IntroductionComponent } from '../../components/Home/IntroductionComponent';
 import { ProductComponent } from '../../components/Home/ProductComponent';
-import { RecepiComponent } from '../../components/Home/RecepiComponent';
+import { RecepeComponent } from '../../components/Home/RecepeComponent';
+import { ContactComponent } from '../../components/Home/ContactComponent';
+import { FooterComponent } from '../../components/Home/FooterComponent';
 
 export const HomeScreen = () => {
 
@@ -23,7 +25,9 @@ export const HomeScreen = () => {
             <CarouselComponent onOrder={openWhatsapp} />
             <IntroductionComponent />
             <ProductComponent onOrder={openWhatsapp} />
-            <RecepiComponent />
+            <RecepeComponent />
+            <ContactComponent />
+            <FooterComponent />
         </div>
     )
 }
