@@ -56,17 +56,25 @@ export const ProductComponent = ({ onOrder }) => {
     );
 
     return (
-        <div id="productos" className="col-12 d-flex flex-column justify-content-center">
-            <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Nuestros Productos </h1>
-            <div className="row">
-                <div className="col-12 card-deck d-flex">
-                    {
-                        products.map(
-                            (product) => (
-                                <CardProductComponent key={product.id} product={product} onOrder={onOrder} />
-                            )
-                        )
-                    }
+        <div className="row">
+            <div className="col-12">
+                <div className="row d-flex justify-content-center">
+                    <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Nuestros Productos </h1>
+                </div>
+                <div className="row">
+                    <div id="productos" className="col-12 d-flex flex-column justify-content-center">
+                        <div className="row">
+                            <div className="col-12 d-flex flex-wrap">
+                                {
+                                    products.map(
+                                        (product) => (
+                                            <CardProductComponent key={product.id} product={product} onOrder={onOrder} />
+                                        )
+                                    )
+                                }
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
