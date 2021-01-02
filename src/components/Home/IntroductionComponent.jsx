@@ -3,10 +3,12 @@ import imgIntroduction from '../../assets/img/imgIntroduction.jpg';
 
 export const IntroductionComponent = () => {
     return (
-        <div className="col-12 d-flex flex-column justify-content-center bg-lightGrey">
-            <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Comercializadora Don Jaime </h1>
-            <div className="row">
-                <div className="col-12 d-flex">
+        <div className="row">
+            <div className="col-12 bg-lightGrey">
+                <div className="row d-flex flex-column justify-content-center">
+                    <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Comercializadora Don Jaime </h1>
+                </div>
+                <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-2 p-1">
                         <img
                             className="img-fluid"
@@ -15,7 +17,7 @@ export const IntroductionComponent = () => {
                             alt="foto pollo"
                         />
                     </div>
-                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-2 p-1">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center p-lg-5 p-md-3 p-sm-2 p-4">
                         <p className="m-0 p-introduction">
                             "Lorem ipsum dolor sit amet, consetetur
                             sadipscing elitr, sed diam nonumy

@@ -33,9 +33,11 @@ export const RecepeComponent = () => {
     return (
         <div>
             <div id="recetas" className="col-12 d-flex flex-column justify-content-center bg-lightGrey">
+                <div className="row d-flex justify-content-center">
                 <h1 className="color-title text-center mt-lg-5 mt-md-3 mt-sm-2 mt-1"> Recetas </h1>
+                </div>
                 <div className="row">
-                    <div className="col-12 card-deck d-flex">
+                    <div className="col-12 d-flex flex-wrap">
                         {
                             recepies.map((recepe) => (
                                 <CardRecepeComponent key={recepe.id} recepe={recepe} onReadMore={onReadMore}/>
